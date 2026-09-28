@@ -7,4 +7,4 @@ imageCredit: "Me"
 slideType: "simple"
 pagePercentage: "> 53.1%"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#alttext">Affects <strong>> 53.1%</strong> of pages</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#alttext">Affects <strong>> 53.1%</strong> of pages</a></p>

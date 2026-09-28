@@ -7,4 +7,4 @@ imageCredit: "Vera Emilie"
 slideType: "simple"
 subheading: "Otherwise they'll help users navigate!"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#headings">Affects <strong>48.8%</strong> of pages</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#headings">Affects <strong>48.8%</strong> of pages</a></p>

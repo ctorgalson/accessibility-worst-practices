@@ -1,7 +1,6 @@
 ---
 title: "Rely on Drupal core's a11y work"
 image: "/images/Drupal Logo_Horizontal_White.svg"
-imageAlt: "Drupal"
 slideType: "simple"
 detailSlide: true
 ---

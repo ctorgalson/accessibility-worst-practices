@@ -5,7 +5,7 @@ imageAlt: "Drupal"
 subheading: "We'll handle the accessibility, thanks!"
 slideType: "simple"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#technologies">(But Drupal is associated with a <strong>26.5%</strong> lower rate of errors...)</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#technologies">(But Drupal is associated with a <strong>26.5%</strong> lower rate of errors...)</a></p>
 
 <style>
 #s27-override-drupal-a11y-safeguards {

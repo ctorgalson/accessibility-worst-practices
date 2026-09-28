@@ -8,4 +8,4 @@ imageCredit: "Darya Grey_Owl"
 slideType: "simple"
 pagePercentage: "15.2%"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#links">Affects <strong>15.2%</strong> of pages</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#links">Affects <strong>15.2%</strong> of pages</a></p>

@@ -1,7 +1,6 @@
 ---
 title: "The \"Million\""
 image: "/images/pexels-magda-ehlers-pexels-9685862.jpg"
-imageAlt: "Repeating pattern of hash marks"
 slideType: "simple"
 detailSlide: true
 ---

@@ -6,4 +6,4 @@ imageUrl: "https://www.pexels.com/photo/close-up-shot-of-a-wooden-robot-toy-on-a
 slideType: "simple"
 detailSlide: true
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#method">"[N]ot all conformance failures can be automatically detected,"</a> and so not all remediations can be automatically applied or evaluated.</p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#method">"[N]ot all conformance failures can be automatically detected,"</a> and so not all remediations can be automatically applied or evaluated.</p>

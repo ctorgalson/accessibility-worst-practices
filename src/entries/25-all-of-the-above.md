@@ -7,4 +7,4 @@ imageUrl: "https://www.pexels.com/photo/close-up-shot-of-flowers-in-bloom-122395
 subheading: "I just do code!"
 slideType: "simple"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/">May affect <strong>> 56,114,377</strong> pages</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/">May affect <strong>> 56,114,377</strong> pages</a></p>

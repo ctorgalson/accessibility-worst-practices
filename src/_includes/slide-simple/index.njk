@@ -15,7 +15,7 @@
 </div>
 {% if entry.data.image or entry.data.imageUrl %}
   <figure class="slide__image{% if entry.data.detailSlide %} slide__image--detail{% endif %}">
-    <img src="{{ entry.data.image }}"{% if not entry.templateContent %} alt="{{ entry.data.imageAlt }}"{% endif %}/>
+    <img src="{{ entry.data.image }}" alt="{{ entry.data.imageAlt or '' }}"/>
     {% if entry.data.imageCredit %}
       <figcaption>
         <p>Image:

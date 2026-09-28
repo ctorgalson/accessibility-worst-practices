@@ -7,4 +7,4 @@ imageAlt: "Close-up view of colorful tangled electrical wires"
 subheading: "aria-what?"
 slideType: "simple"
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#aria">pages with ARIA present had significantly more errors (<strong>59.1</strong> on average)</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#aria">pages with ARIA present had significantly more errors (<strong>59.1</strong> on average)</a></p>

@@ -5,4 +5,4 @@ subheading: "HTML, CSS, and Javascript are your programs' output!"
 slideType: "simple"
 detailSlide: true
 ---
-<p class="slide__percentage">Poor accessibility undermines <strong>100%</strong> of everything we and our clients do!</p>
+<p class="slide__callout">Poor accessibility undermines <strong>100%</strong> of everything we and our clients do!</p>

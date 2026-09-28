@@ -6,4 +6,4 @@ imageUrl: "https://www.pexels.com/photo/close-up-shot-of-a-wooden-robot-toy-on-a
 slideType: "simple"
 detailSlide: true
 ---
-<p class="slide__percentage"><a href="https://webaim.org/projects/million/#method">"Absence of detected errors does not indicate that a page is accessible or conformant."</a></p>
+<p class="slide__callout"><a href="https://webaim.org/projects/million/#method">"Absence of detected errors does not indicate that a page is accessible or conformant."</a></p>
