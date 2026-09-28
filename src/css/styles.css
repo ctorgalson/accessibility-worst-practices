@@ -100,6 +100,7 @@ a {
   width: 100%;
 
   img {
+    display: block;
     height: 100%;
     min-height: 0;
     object-fit: cover;
@@ -186,11 +187,15 @@ a {
 .slide__details {
   display: grid;
   grid-column-gap: calc(var(--pico-block-spacing-horizontal) / 2);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: max-content;
   grid-template-rows: 1fr;
   margin-inline: 0;
   transform: translate(calc(0.625 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) / -3));
   width: max-content;
+
+  &:has(section + section) {
+    grid-template-columns: 1fr 1fr;
+  }
 
   section {
     margin-block: 0;
@@ -199,7 +204,7 @@ a {
     padding-inline: var(--pico-block-spacing-horizontal) calc(1.5 * ( var(--pico-block-spacing-horizontal)));
   }
 
-  section:nth-child(1) {
+  section:first-of-type {
     background: var(--pico-color-slate-850);
 
     & > *,
@@ -208,7 +213,7 @@ a {
     }
   }
 
-  section:nth-child(2) {
+  section + section {
     background: #fff;
     transform: translate(calc(-0.875 * var(--pico-block-spacing-horizontal)), var(--pico-block-spacing-vertical));
 
