@@ -1,5 +1,5 @@
 ---
-title: "Separate type appearance from structure"
+title: "Separate type style and structure"
 image: "/images/pexels-cup-of-couple-8014593.jpg"
 slideType: "simple"
 detailSlide: true

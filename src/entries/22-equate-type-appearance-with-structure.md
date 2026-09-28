@@ -1,5 +1,5 @@
 ---
-title: "Equate type appearance with structure"
+title: "Equate type style and structure"
 image: "/images/pexels-cup-of-couple-8014593.jpg"
 imageAlt: "A pair of green and brown plastic dinosaurs"
 imageCredit: "Cup of Couple"
