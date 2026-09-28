@@ -18,7 +18,6 @@ detailSlide: true
 ### Do not
 
 - skip link text altogether
-- use "click here"
-- use "read more"
+- use "click here", "read more", "continue", "learn more", "details", etc.
 
 </section>

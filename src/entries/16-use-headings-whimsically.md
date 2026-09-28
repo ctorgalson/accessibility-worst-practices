@@ -19,5 +19,7 @@ detailSlide: true
 - use headings just for *visual* impact
 - use other elements as headings
 - skip heading levels
+- include empty headings
+- include multiple <code>&lt;h1&gt;</code> elements
 
 </section>

@@ -8,7 +8,7 @@ detailSlide: true
 
 ### Remediation / Prevention
 - provide guidance (or examples!) for using type scale for non-heading elements
-- pre-map sizes to heading levels for expected contexts
+- pre-define size-to-heading-level mappings per context
 - anticipate editors' need for visual impact apart from headings
 - understand that headings *will* be misused if they're the only available variations
 
@@ -21,10 +21,3 @@ detailSlide: true
 
 
 </section>
-<style>
-#s20-ignore-element-active-states {
-  img {
-    object-position: top center;
-  }
-}
-</style>

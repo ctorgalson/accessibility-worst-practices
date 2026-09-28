@@ -20,8 +20,8 @@ detailSlide: true
 
 ### Do not
 - use "image of..." or similar in <code>alt</code> text
-- use file name for <code>alt</code> text
+- use the file name for <code>alt</code> text
 - duplicate <code>alt</code> text in adjacent content (including captions)
-- use <code>alt</code> for keyword stuffing 🤬🤬🤬
+- use <code>alt</code> for keyword stuffing 🤬
 
 </section>
