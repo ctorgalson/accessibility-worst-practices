@@ -21,6 +21,6 @@ detailSlide: true
 - ["96% of all errors detected fall into...six categories"](https://webaim.org/projects/million/#wcag)
 - The top issues are mostly easy to fix
 - Drupal's defaults avoid several of the top issues
-- Drupal--and modern browsers--have a lot of helpful accessibility tools
+- Drupal&mdash;and modern browsers&mdash;have a lot of helpful accessibility tools
 
 </section>
