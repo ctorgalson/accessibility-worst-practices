@@ -1,7 +1,7 @@
 ---
 title: "Let bots do bot things"
 image: "/images/pexels-ann-h-45017-4102557.jpg"
-subheading: "The solutions to accessibility problems always require human judgement"
+subheading: "Let humans <em>decide</em> though"
 imageUrl: "https://www.pexels.com/photo/close-up-shot-of-a-wooden-robot-toy-on-a-black-surface-4102557/"
 slideType: "simple"
 detailSlide: true

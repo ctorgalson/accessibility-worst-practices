@@ -157,7 +157,7 @@ a {
   background: var(--awp-drupal-blue);
   color: #fff;
   font-size: 4em;
-  margin-block: 20% 0;
+  margin-block: 5% 0;
   max-width: 85vw;
   padding-block: calc(var(--pico-block-spacing-horizontal) / 2);
   padding-inline: var(--pico-block-spacing-horizontal) calc(4 *  var(--pico-block-spacing-horizontal));

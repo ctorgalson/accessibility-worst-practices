@@ -1,5 +1,5 @@
 ---
-title: "Use meaningful, descriptive 'alt' text"
+title: "Use appropriate 'alt' text"
 image: "/images/IMG_4609.jpeg"
 slideType: "simple"
 imageCredit: "Me"
