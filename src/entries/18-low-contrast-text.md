@@ -1,5 +1,5 @@
 ---
-title: "Use low-contrast text and icons"
+title: "Use low-contrast text and UI elements"
 image: "/images/pexels-johannes-sachsse-962984-19964901.jpg"
 imageUrl: "https://www.pexels.com/photo/stop-sign-at-parking-lot-19964901/"
 imageAlt: "Stop sign with 'STOP' printed in red on a red background"

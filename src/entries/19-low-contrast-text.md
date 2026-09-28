@@ -1,5 +1,5 @@
 ---
-title: "Use low-contrast text and icons"
+title: "Use low-contrast text and UI elements"
 image: "/images/pexels-johannes-sachsse-962984-19964901.jpg"
 slideType: "simple"
 detailSlide: true
