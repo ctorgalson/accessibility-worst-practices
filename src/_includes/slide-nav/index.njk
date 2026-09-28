@@ -1,0 +1,43 @@
+{% set idx = loop.index0 %}
+{% set prevEntryFileSlug = collections.entries[idx - 1].fileSlug if idx > 0 %}
+{% set nextEntryFileSlug = collections.entries[idx + 1].fileSlug if idx < collections.entries.length - 1 %}
+
+{% if prevEntryFileSlug or nextEntryFileSlug %}
+  <nav class="slide__nav">
+    <ul>
+      <li>
+        <a
+          aria-label="Previous slide"
+          class="slide__nav-link"
+          href="{% if prevEntryFileSlug %}{{ ['#s' + prevEntryFileSlug] | join }}{% endif %}"
+          {% if not prevEntryFileSlug %}inert{% endif %}
+          rel="prev"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20,10V14H11L14.5,17.5L12.08,19.92L4.16,12L12.08,4.08L14.5,6.5L11,10H20Z" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        {% include "slide-count/index.njk" %}
+      </li>
+      <li>
+        <a
+          aria-label="Next slide"
+          class="slide__nav-link"
+          href="{% if nextEntryFileSlug %}{{ ['#s' + nextEntryFileSlug] | join }}{% endif %}"
+          {% if not nextEntryFileSlug %}inert{% endif %}
+          rel="next"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4,10V14H13L9.5,17.5L11.92,19.92L19.84,12L11.92,4.08L9.5,6.5L13,10H4Z" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+{% endif %}
+
+  {% css %}
+    <link rel="stylesheet" href="/css/slide-nav.css">
+  {% endcss %}

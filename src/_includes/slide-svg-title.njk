@@ -1,0 +1,11 @@
+<div
+  class="slide slide--svg-title"
+  id="s{{ entry.fileSlug }}"
+>
+  <h{{ headingEl|default("h2") }}>
+    <img
+      src="{{ entry.data.image or entry.data.imageUrl }}"
+      alt="{{ entry.data.title }}"
+    />
+  </h{{ headingEl|default("h2") }}>
+</div>

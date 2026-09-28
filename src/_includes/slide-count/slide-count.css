@@ -1,0 +1,9 @@
+.slide__count {
+  color: var(--pico-color-zinc-100);
+  font-size: 1.25rem;
+  margin-bottom: 0;
+
+  span {
+    color: #fff;
+  }
+}

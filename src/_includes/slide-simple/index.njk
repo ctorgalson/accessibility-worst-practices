@@ -1,0 +1,35 @@
+<div class="slide__content">
+  <div class="slide__content-inner">
+    <{{ entry.data.headingEl|default("h2") }} class="slide__heading">
+      {{ entry.data.title }}
+    </{{ entry.data.headingEl|default("h2") }}>
+    {% if entry.data.subheading %}
+      <p class="slide__subheading">{{ entry.data.subheading|safe }}</p>
+    {% endif %}
+    {% if entry.templateContent -%}
+      <div class="slide__details">
+        {{ entry.templateContent|safe }}
+      </div>
+    {%- endif %}
+  </div>
+</div>
+{% if entry.data.image or entry.data.imageUrl %}
+  <figure class="slide__image{% if entry.data.detailSlide %} slide__image--detail{% endif %}">
+    <img src="{{ entry.data.image }}"{% if not entry.templateContent %} alt="{{ entry.data.imageAlt }}"{% endif %}/>
+    {% if entry.data.imageCredit %}
+      <figcaption>
+        <p>Image:
+          {% if entry.data.imageUrl %}
+            <a href="{{ entry.data.imageUrl }}">{{ entry.data.imageCredit }}</a>
+          {% else %}
+            {{ entry.data.imageCredit }}
+          {% endif %}
+        </p>
+      </figcaption>
+    {% endif %}
+  </figure>
+{% endif %}
+
+{% css %}
+  <link rel="stylesheet" href="/css/slide-simple.css">
+{% endcss %}

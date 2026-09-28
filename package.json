@@ -1,0 +1,15 @@
+{
+  "name": "a11y-worst-practices",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@bedlamhotel/bh-carousel": "^0.14.2",
+    "@picocss/pico": "^2.1.1"
+  }
+}

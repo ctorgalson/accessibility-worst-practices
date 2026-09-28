@@ -1,0 +1,26 @@
+.slide__content--banner {
+  background: var(--awp-drupal-blue);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+
+  .slide__heading,
+  .slide__subheading {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .slide__heading {
+    background: transparent;
+    margin-block: 0;
+    max-width: 80vw;
+    outline: 0;
+    text-align: center;
+    width: 100%
+  }
+
+  img {
+    width: 100%;
+  }
+}

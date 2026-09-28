@@ -1,0 +1,33 @@
+{% if entry.templateContent %}
+  <article class="slide__card">
+    <header class="slide__card-header">
+      <{{ entry.data.headingEl|default("h2") }}>
+        {{ entry.data.title }}
+      </{{ entry.data.headingEl|default("h2") }}>
+    </header>
+    <div class="slide__card-inner">
+      <div class="slide__card-content">
+        {{ entry.templateContent|safe }}
+      </div>
+
+      {% if entry.data.image or entry.data.imageUrl %}
+        <figure class="slide__card-image">
+          <img src="{{ entry.data.image }}" alt="{{ entry.data.imageAlt }}"/>
+          <figcaption>
+            <p>Image:
+            {% if entry.data.imageUrl %}
+              <a href="{{ entry.data.imageUrl }}">{{ entry.data.imageCredit }}</a>
+            {% else %}
+              {{ entry.data.imageCredit }}
+            {% endif %}
+            </p>
+          </figcaption>
+        </figure>
+      {% endif %}
+    </div>
+  </article>
+{% endif %}
+
+{% css %}
+  <link rel="stylesheet" href="/css/slide-card.css">
+{% endcss %}

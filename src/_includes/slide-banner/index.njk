@@ -1,0 +1,19 @@
+<div class="slide__content slide__content--banner">
+  <{{ headingEl|default("h2") }} class="slide__heading">
+    {% if entry.data.image %}
+      <img src="{{ entry.data.image }}" alt="{{ entry.data.imageAlt or entry.data.title }}"/>
+    {% else %}
+      {{ entry.data.title }}
+    {% endif %}
+  </{{ headingEl|default("h2") }}>
+  {% if entry.data.subheading %}
+    <p class="slide__subheading">{{ entry.data.subheading }}</p>
+  {% endif %}
+  {% if entry.templateContent -%}
+    {{ entry.templateContent|safe }}
+  {% endif %}
+</div>
+
+{% css %}
+  <link rel="stylesheet" href="/css/slide-banner.css">
+{% endcss %}

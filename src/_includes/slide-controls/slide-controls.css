@@ -1,0 +1,55 @@
+.slide__controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.slide__controls input[type="checkbox"] {
+  background-color: #fff;
+  border-color: var(--pico-color-zinc-250);
+  color: var(--pico-color-slate-850);
+
+  &:checked {
+    background-color: var(--awp-drupal-blue);
+  }
+}
+
+.slide__controls label {
+  color: #fff;
+  display: block;
+  margin-block: 0;
+}
+
+.slide__controls button {
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  display: block;
+  margin-block: 0;
+  padding: calc(var(--pico-form-element-spacing-vertical) / 2) calc(var(--pico-form-element-spacing-horizontal) / 2);
+
+  * {
+    pointer-events: none;
+  }
+
+  svg {
+    display: block;
+    width: calc(2 * var(--pico-spacing));
+  }
+}
+
+.slide__controls form {
+  align-items: center;
+  background-color: var(--pico-background-color);
+  display: flex;
+  height: 100%;
+  padding-inline: var(--pico-block-spacing-horizontal);
+
+  &[aria-hidden="true"] {
+    display: none;
+  }
+}

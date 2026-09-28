@@ -1,0 +1,42 @@
+---
+title: Accessibility Worst Practices
+---
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/css/pico.min.css" />
+    <link rel="stylesheet" href="css/pico.colors.min.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    {% getBundle "css" %}
+  </head>
+  <body class="presentation">
+    <main>
+      {% include "slide-controls/index.njk" %}
+      <ol class="slides">
+        {% for entry in collections.entries %}
+          <li
+            class="slide slide--content slide--{{ entry.data.slideType|default("content") }}"
+            id="s{{ entry.fileSlug }}"
+          >
+
+            {% if entry.data.slideType == "simple" %}
+              {% include "slide-simple/index.njk" %}
+            {% elseif entry.data.slideType == "banner" %}
+              {% include "slide-banner/index.njk" %}
+            {% elseif entry.data.slideType == "card" %}
+              {% include "slide-card/index.njk" %}
+            {% else %}
+              {% include "slide-content/index.njk" %}
+            {% endif %}
+
+            {% include "slide-nav/index.njk" %}
+          </li>
+        {% endfor %}
+      </ol>
+    </main>
+    {% getBundle "js" %}
+  </body>
+</html>
