@@ -12,6 +12,8 @@ detailSlide: true
 - review heading structure at publication
 - ask designers for help
 
+[WCAG 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
+
 </section>
 <section>
 

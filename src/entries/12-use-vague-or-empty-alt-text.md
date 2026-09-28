@@ -15,6 +15,8 @@ detailSlide: true
 - content: use <code>alt</code> to convey purpose/content, **or** use empty <code>alt</code> text, providing full image text in surrounding content
 - ensure linked images' <code>alt</code> text makes sense *as link text*
 
+[WCAG 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
+
 </section>
 <section>
 

@@ -22,4 +22,8 @@ detailSlide: true
 - then test with a screen reader
 - **prove** it all works with tests
 
+[WCAG 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html)
+
+[WCAG 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html)
+
 </section>
