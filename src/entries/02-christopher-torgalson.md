@@ -1,7 +1,7 @@
 ---
 title: "Christopher Torgalson"
 image: "/images/IMG_4609.jpeg"
-imageAlt: "Field in Beacon Hill Park, Victoria BC"
+imageAlt: "field of dry grasses and garry-oak trees"
 imageCredit: "Me"
 slideType: "simple"
 ---
