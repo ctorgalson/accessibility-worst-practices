@@ -11,10 +11,6 @@ detailSlide: true
 - [consider the effects of font-weight and font-size on readability](https://www.smashingmagazine.com/2022/09/realities-myths-contrast-color/#shedding-light-on-contrast)
 - verify contrast of all states of text and UI components
 
-[WCAG 1.4.3 Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
-
-[WCAG 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html)
-
 </section>
 <section>
 
@@ -25,3 +21,4 @@ detailSlide: true
 - overlay text on arbitrary (user-selectable) images without a means to guarantee sufficient contrast
     
 </section>
+<p><a href="/endnotes/#endnote-s19-low-contrast-text">WCAG criteria relevant to contrast</a></p>

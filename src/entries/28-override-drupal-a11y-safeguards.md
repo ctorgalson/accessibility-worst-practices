@@ -12,14 +12,6 @@ detailSlide: true
 - problems with [missing document language](https://webaim.org/projects/million/#languages) (affects 13.5% of sites)
 - problems with empty buttons
 
-[WCAG 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
-
-[WCAG 2.4.1 Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html)
-
-[WCAG 3.1.1 Language of Page](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html)
-
-[WCAG 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value.html)
-
 </section>
 <section>
 
@@ -30,6 +22,7 @@ detailSlide: true
 - the module and core ecosystem are the wild west
 
 </section>
+
 <style>
 #s28-override-drupal-a11y-safeguards {
   .slide__image {
@@ -42,3 +35,4 @@ detailSlide: true
     }
 }
 </style>
+<p><a href="/endnotes/#endnote-s28-override-drupal-a11y-safeguards">WCAG criteria relevant to Drupal core's accessibility</a></p>

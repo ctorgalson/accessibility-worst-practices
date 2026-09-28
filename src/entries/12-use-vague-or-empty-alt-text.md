@@ -15,8 +15,6 @@ detailSlide: true
 - content: use <code>alt</code> to convey purpose/content, **or** use empty <code>alt</code> text, providing full image text in surrounding content
 - ensure linked images' <code>alt</code> text makes sense *as link text*
 
-[WCAG 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html)
-
 </section>
 <section>
 
@@ -27,3 +25,4 @@ detailSlide: true
 - use <code>alt</code> for keyword stuffing 🤬
 
 </section>
+<p><a href="/endnotes/#endnote-s12-use-vague-or-empty-alt-text">WCAG criteria relevant to alt text</a></p>

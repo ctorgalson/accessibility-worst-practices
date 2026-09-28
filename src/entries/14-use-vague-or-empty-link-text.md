@@ -12,8 +12,6 @@ detailSlide: true
 - use descriptive link text appropriate to the context
 - ensure linked images' <code>alt</code> text works as link text
 
-[WCAG 2.4.4 Link Purpose (In Context)](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html)
-
 </section>
 <section>
 
@@ -23,3 +21,4 @@ detailSlide: true
 - use "click here", "read more", "continue", "learn more", "details", etc.
 
 </section>
+<p><a href="/endnotes/#endnote-s14-use-vague-or-empty-link-text">WCAG criteria relevant to link text</a></p>

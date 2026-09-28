@@ -12,8 +12,6 @@ detailSlide: true
 - review heading structure at publication
 - ask designers for help
 
-[WCAG 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
-
 </section>
 <section>
 
@@ -25,3 +23,4 @@ detailSlide: true
 - include multiple <code>&lt;h1&gt;</code> elements
 
 </section>
+<p><a href="/endnotes/#endnote-s16-use-headings-whimsically">WCAG criteria relevant to headings</a></p>

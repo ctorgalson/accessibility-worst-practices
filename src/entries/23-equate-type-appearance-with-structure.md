@@ -12,8 +12,6 @@ detailSlide: true
 - anticipate editors' need for visual impact apart from headings
 - understand that headings *will* be misused if they're the only available variations
 
-[WCAG 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
-
 </section>
 <section>
 
@@ -23,3 +21,4 @@ detailSlide: true
 
 
 </section>
+<p><a href="/endnotes/#endnote-s23-equate-type-appearance-with-structure">WCAG criteria relevant to type style and structure</a></p>
