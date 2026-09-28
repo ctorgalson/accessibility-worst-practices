@@ -47,8 +47,18 @@ nav.slide__nav {
 
   &:hover {
     --pico-color: var(--pico-color-zinc-100);
-    outline: var(--pico-outline-width) solid var(--pico-primary);
-    outline-offset: calc(var(--pico-spacing) / 8);
+    outline: none;
+    position: relative;
+
+    &::after {
+      background: var(--pico-primary-focus);
+      bottom: calc(var(--pico-block-spacing-vertical) / -4);
+      content: "";
+      display: block;
+      height: calc(var(--pico-spacing) / 5);
+      position: absolute;
+      width: 100%;
+    }
   }
 }
 

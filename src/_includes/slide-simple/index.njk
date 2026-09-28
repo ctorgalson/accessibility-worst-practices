@@ -1,7 +1,7 @@
 <div class="slide__content">
   <div class="slide__content-inner">
     <{{ entry.data.headingEl|default("h2") }} class="slide__heading">
-      {{ entry.data.title }}
+      {{ entry.data.title|safe }}
     </{{ entry.data.headingEl|default("h2") }}>
     {% if entry.data.subheading %}
       <p class="slide__subheading">{{ entry.data.subheading|safe }}</p>
