@@ -4,7 +4,7 @@ permalink: /endnotes/
 eleventyExcludeFromCollections: true
 layout: endnotes.njk
 ---
-## References
+# WCAG references
 
 <a id="endnote-s12-use-vague-or-empty-alt-text"></a>
 ### Slide 12: Use appropriate 'alt' text

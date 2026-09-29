@@ -31,6 +31,7 @@
   --awp-box-shadow: 0 6.36px 8.896px var(--pico-color-slate-850);
   --awp-text-shadow: 0 6.36px 8.896px var(--pico-color-slate-850),0 -1px 1px var(--pico-color-pumpkin-150);
   --awp-drupal-blue: #009cde;
+  --awp-dark-link: var(--pico-color-azure-600);
 }
 
 body {
@@ -122,6 +123,10 @@ a {
       margin-bottom: 0;
       width: max-content;
     }
+
+    a {
+      color: var(--awp-dark-link);
+    }
   }
 }
 
@@ -149,7 +154,8 @@ a {
 .slide__heading,
 .slide__subheading,
 .slide__callout,
-.slide__details section {
+.slide__details section,
+.slide__details section + p {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   outline: 1px solid var(--pico-color-slate-250);
 }
@@ -189,7 +195,7 @@ a {
   grid-column-gap: calc(var(--pico-block-spacing-horizontal) / 2);
   grid-template-columns: max-content;
   grid-template-rows: 1fr;
-  margin-inline: 0;
+  margin-inline: 0;http://localhost:8080/?mode=slide#s28-override-drupal-a11y-safeguards
   transform: translate(calc(0.625 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) / -3));
   width: max-content;
 
@@ -198,10 +204,15 @@ a {
   }
 
   section {
+    height: max-content;
     margin-block: 0;
     max-width: 50ch;
     padding-block: var(--pico-block-spacing-vertical);
     padding-inline: var(--pico-block-spacing-horizontal) calc(1.5 * ( var(--pico-block-spacing-horizontal)));
+
+    a {
+      color: var(--awp-dark-link);
+    }
   }
 
   section:first-of-type {
@@ -219,6 +230,19 @@ a {
 
     & > * {
       color: var(--pico-color-slate-850);
+    }
+  }
+
+  section + section + p {
+    background: #fff;
+    margin-block: var(--pico-block-spacing-vertical) 0;
+    margin-inline: var(--pico-block-spacing-vertical) 0;
+    padding-block: calc(var(--pico-block-spacing-vertical) / 2);
+    padding-inline: var(--pico-block-spacing-vertical);
+    width: max-content;
+
+    a {
+      color: var(--awp-dark-link);
     }
   }
 
@@ -250,6 +274,7 @@ a {
   color: #fff;
   display: flex;
   font-family: "Bitter Regular", Rockwell, "Roboto Slab", Georgia, ui-serif, serif;
+  font-size: 1.5rem;
   min-height: 3rem;
   padding-inline: var(--pico-block-spacing-horizontal);
   transform: translate(calc(-0.5 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) * 0.75)) rotate(-0.75deg);
@@ -264,6 +289,11 @@ a {
 
   strong {
     background: transparent;
-    font-size: 2em;
+    font-size: 1.5em;
   }
+}
+
+.endnotes {
+  margin-inline: auto;
+  width: 50ch;
 }
