@@ -294,6 +294,8 @@ a {
 
 .endnotes {
   margin-inline: auto;
+  padding-block: var(--pico-block-spacing-vertical);
+  padding-inline: var(--pico-block-spacing-horizontal);
   width: 50ch;
 }
 
