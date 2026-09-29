@@ -14,7 +14,7 @@
   </div>
 </div>
 {% if entry.data.image or entry.data.imageUrl %}
-  <figure class="slide__image{% if entry.data.detailSlide %} slide__image--detail{% endif %}">
+  <{{ "figure" if entry.data.imageCredit else "div" }} class="slide__image{% if entry.data.detailSlide %} slide__image--detail{% endif %}">
     <img src="{{ entry.data.image }}" alt="{{ entry.data.imageAlt or '' }}"/>
     {% if entry.data.imageCredit %}
       <figcaption>
@@ -27,7 +27,7 @@
         </p>
       </figcaption>
     {% endif %}
-  </figure>
+  </{{ "figure" if entry.data.imageCredit else "div" }}>
 {% endif %}
 
 {% css %}
