@@ -181,6 +181,7 @@ a {
   font-family: "Bitter Regular", Rockwell, "Roboto Slab", Georgia, ui-serif, serif;
   font-size: 2em;
   margin-block: 0;
+  max-width: 85vw;
   padding-inline: var(--pico-block-spacing-horizontal) calc(3 *  var(--pico-block-spacing-horizontal));
   transform: translate(calc(0.625 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) / -3));
   width: max-content;
@@ -195,7 +196,7 @@ a {
   grid-column-gap: calc(var(--pico-block-spacing-horizontal) / 2);
   grid-template-columns: max-content;
   grid-template-rows: 1fr;
-  margin-inline: 0;http://localhost:8080/?mode=slide#s28-override-drupal-a11y-safeguards
+  margin-inline: 0;
   transform: translate(calc(0.625 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) / -3));
   width: max-content;
 
@@ -273,8 +274,10 @@ a {
   background: var(--pico-color-pink-450);
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   font-family: "Bitter Regular", Rockwell, "Roboto Slab", Georgia, ui-serif, serif;
   font-size: 1.5rem;
+  max-width: 85vw;
   min-height: 3rem;
   padding-inline: var(--pico-block-spacing-horizontal);
   transform: translate(calc(-0.5 * var(--pico-block-spacing-horizontal)), calc(var(--pico-block-spacing-vertical) * 0.75)) rotate(-0.75deg);

@@ -9,7 +9,7 @@ imageCredit: "https://kaboompics.com/"
 subheading: "or, How Not To Do It"
 ---
 <style>
-  #s00-accessibility-worst-practices {
+  #s01-accessibility-worst-practices {
     .slide__content {
       align-content: end;
       justify-content: start;

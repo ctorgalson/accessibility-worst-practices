@@ -1,5 +1,5 @@
 ---
-title: "Let bots do it all"
+title: "Let robots do it all"
 image: "/images/pexels-ann-h-45017-4102557.jpg"
 imageAlt: "Unhappy toy wooden wind-up robot"
 imageUrl: "https://www.pexels.com/photo/close-up-shot-of-a-wooden-robot-toy-on-a-black-surface-4102557/"
