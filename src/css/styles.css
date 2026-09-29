@@ -293,10 +293,15 @@ a {
 }
 
 .endnotes {
+  color: #fff;
   margin-inline: auto;
   padding-block: var(--pico-block-spacing-vertical);
   padding-inline: var(--pico-block-spacing-horizontal);
   width: 50ch;
+
+  h1, h2, h3, h4, h5, h6, a {
+    color: #fff;
+  }
 }
 
 @media (width < 1440px) {
