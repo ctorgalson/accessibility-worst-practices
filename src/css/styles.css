@@ -169,10 +169,6 @@ a {
   padding-block: calc(var(--pico-block-spacing-horizontal) / 2);
   padding-inline: var(--pico-block-spacing-horizontal) calc(4 *  var(--pico-block-spacing-horizontal));
   width: max-content;
-
-  .slide__content--detail & {
-    background: var(--pico-color-pink-450);
-  }
 }
 
 .slide__subheading {
