@@ -1,9 +1,21 @@
 import { HtmlBasePlugin } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+    formats: ["webp", "jpeg", "svg"],
+    widths: [800, 1600, "auto"],
+    svgShortCircuit: true,
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+      sizes: "100vw",
+    },
+  });
+
   eleventyConfig.addPlugin(HtmlBasePlugin);
 
-  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/fonts");

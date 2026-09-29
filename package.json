@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^7.0.0",
     "@bedlamhotel/bh-carousel": "^0.14.2",
     "@picocss/pico": "^2.1.1"
   }
