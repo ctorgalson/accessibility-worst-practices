@@ -18,8 +18,6 @@ detailSlide: true
 ### But
 - these are overridable, so they can't be excluded from checks
 - modules and themes often do worse than core (especially with things like form labels)
-- some Drupal accessibility "helpers" are often flagged as problems by accessibility auditors
-- the module and core ecosystem are the wild west
 
 </section>
 <p><a href="/endnotes/#endnote-s28-override-drupal-a11y-safeguards">WCAG criteria relevant to Drupal core's accessibility</a></p>
