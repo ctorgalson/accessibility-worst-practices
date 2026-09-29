@@ -6,7 +6,7 @@ image: "/images/pexels-karola-g-6920074.jpg"
 imageAlt: "Woman hammering a screw into a board on her knee"
 imageUrl: "https://www.pexels.com/photo/a-person-hammering-a-nail-6920074/"
 imageCredit: "https://kaboompics.com/"
-subheading: "or, How Not To Do It"
+subheading: "or, The Low-Hanging Fruit"
 ---
 <style>
   #s01-accessibility-worst-practices {

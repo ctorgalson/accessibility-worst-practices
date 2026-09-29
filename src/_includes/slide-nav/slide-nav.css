@@ -51,7 +51,7 @@ nav.slide__nav {
     position: relative;
 
     &::after {
-      background: var(--pico-primary-focus);
+      background: var(--awp-drupal-blue);
       bottom: calc(var(--pico-block-spacing-vertical) / -4);
       content: "";
       display: block;
