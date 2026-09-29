@@ -1,7 +1,7 @@
 ---
 title: "Do remember all that stuff"
 image: "/images/pexels-tatesku-12239529.jpg"
-subheading: "HTML, CSS, and Javascript are your programs' output!"
+subheading: "HTML, CSS, and Javascript are our programs' output!"
 slideType: "simple"
 detailSlide: true
 ---

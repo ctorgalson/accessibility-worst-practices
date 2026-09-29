@@ -76,7 +76,7 @@ a {
 .slides {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .slide {
@@ -88,7 +88,7 @@ a {
   overflow: hidden;
   padding: 0;
   place-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .slide__image {

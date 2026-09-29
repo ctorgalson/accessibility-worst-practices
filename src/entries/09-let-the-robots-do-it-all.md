@@ -1,5 +1,5 @@
 ---
-title: "Let humans make decisions"
+title: "Make humans decision-makers"
 image: "/images/pexels-ann-h-45017-4102557.jpg"
 subheading: |
     <a href="https://webaim.org/projects/million/#method">"[N]ot all conformance failures can be automatically detected,"</a>

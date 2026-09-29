@@ -1,5 +1,5 @@
 ---
-title: "Javascript: "
+title: "Javascript: test it, test it, test it"
 image: "/images/pexels-cottonbro-4480541.jpg"
 slideType: "simple"
 detailSlide: true

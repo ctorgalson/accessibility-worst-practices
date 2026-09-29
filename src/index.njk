@@ -26,10 +26,6 @@ title: Accessibility Worst Practices
               {% include "slide-simple/index.njk" %}
             {% elseif entry.data.slideType == "banner" %}
               {% include "slide-banner/index.njk" %}
-            {% elseif entry.data.slideType == "card" %}
-              {% include "slide-card/index.njk" %}
-            {% else %}
-              {% include "slide-content/index.njk" %}
             {% endif %}
 
             {% include "slide-nav/index.njk" %}

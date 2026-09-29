@@ -22,6 +22,7 @@ detailSlide: true
 - the module and core ecosystem are the wild west
 
 </section>
+<p><a href="/endnotes/#endnote-s28-override-drupal-a11y-safeguards">WCAG criteria relevant to Drupal core's accessibility</a></p>
 
 <style>
 #s28-override-drupal-a11y-safeguards {
@@ -35,4 +36,3 @@ detailSlide: true
     }
 }
 </style>
-<p><a href="/endnotes/#endnote-s28-override-drupal-a11y-safeguards">WCAG criteria relevant to Drupal core's accessibility</a></p>
